@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T14:09:58.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="s7aKi8FBDD5kBd88xKSR" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T14:11:01.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="JR1i_jrJWzTfGbCxtv1q" version="14.4.2" type="github">
   <diagram id="snMSLyNpEliFtqH8T0_m" name="페이지-1">
     <mxGraphModel dx="803" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="MicS51efgdV4Yqa2tdts-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MicS51efgdV4Yqa2tdts-8" target="MicS51efgdV4Yqa2tdts-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-8" value="삭제할 연락처의 이름을 입력하고 &lt;br&gt;DeleteName에 저장" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="180.5" y="240" width="270" height="80" as="geometry" />
+        <mxCell id="MicS51efgdV4Yqa2tdts-8" value="삭제할 연락처의 이름을 입력(scanf)&lt;br&gt;DeleteName에 저장" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="175.25" y="240" width="280.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MicS51efgdV4Yqa2tdts-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MicS51efgdV4Yqa2tdts-10" target="MicS51efgdV4Yqa2tdts-16">
           <mxGeometry relative="1" as="geometry" />
