@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T14:11:01.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="JR1i_jrJWzTfGbCxtv1q" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-20T14:12:15.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="UgoGQOyz80fEVNq1lYZQ" version="14.4.2" type="github">
   <diagram id="snMSLyNpEliFtqH8T0_m" name="페이지-1">
     <mxGraphModel dx="803" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="MicS51efgdV4Yqa2tdts-15" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;People.Name == DeleteName&amp;nbsp;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="195.5" y="340" width="240" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="MicS51efgdV4Yqa2tdts-16" value="Search 함수 종료/ main 문 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="MicS51efgdV4Yqa2tdts-16" value="Delete 함수 종료/ main 문 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="205" y="670" width="221" height="50" as="geometry" />
         </mxCell>
       </root>
