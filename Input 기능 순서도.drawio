@@ -1,35 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-02-20T13:47:00.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="kzJXn9xqospO5gwwcWfy" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-04T07:55:15.337Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="kBdZeuGWfv0BPVtaTdsW" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="803" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-0" target="QGJq0PdZ1QkwxRiK3rNf-2">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="QGJq0PdZ1QkwxRiK3rNf-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-1" target="QGJq0PdZ1QkwxRiK3rNf-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-0" value="Input 함수 호출(실행)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="50" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-1" target="QGJq0PdZ1QkwxRiK3rNf-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-1" value="People 정보 입력:&lt;br&gt;PhoneNum, Name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-1" value="People 정보 입력:&lt;br&gt;PhoneNum, Name" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="255" y="280" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-2" target="QGJq0PdZ1QkwxRiK3rNf-1">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-2" target="QGJq0PdZ1QkwxRiK3rNf-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-2" value="malloc 함수를 이용한 동적메모리할당&lt;br&gt;People 구조체 크기만큼" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="150" width="220" height="70" as="geometry" />
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-2" value="malloc 함수를 이용한 동적메모리할당&lt;br&gt;People 구조체 크기만큼" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="240" y="160" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-3" target="QGJq0PdZ1QkwxRiK3rNf-4">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QGJq0PdZ1QkwxRiK3rNf-3" target="QGJq0PdZ1QkwxRiK3rNf-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-3" value="입력된 People 정보를&amp;nbsp;&lt;br&gt;PhoneNumList.txt 에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-3" value="입력된 People 정보를&amp;nbsp;&lt;br&gt;PhoneNumList.txt 에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="265" y="390" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-4" value="Input 함수 종료&lt;br&gt;-&amp;gt; main 함수로 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="QGJq0PdZ1QkwxRiK3rNf-4" value="Input 함수 종료&lt;br&gt;-&amp;gt; main 함수로 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="282.5" y="510" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MIVhKUlmY33OTzhxlFlY-0" value="Start&lt;br&gt;(Input)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="284" y="40" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
