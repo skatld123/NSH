@@ -1,44 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:52:13.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="w51-op5czpc7WBhWk_X5" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:11:16.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="fsFdUsXzULWV7eRUmfds" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="_8A0RdiCuzYZlv76x9rI-3" value="Name" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="369" y="820" width="221" height="50" as="geometry" />
+        <mxCell id="_8A0RdiCuzYZlv76x9rI-3" value="person_info[i].Name&lt;br&gt;person_info[i].PH 출력&lt;br&gt;&quot;이름: 홍길동&lt;br&gt;번호:0106445151&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="369.5" y="770" width="221" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_8A0RdiCuzYZlv76x9rI-4" value="해당 이름의 연락처는 없습니다.&lt;br&gt;다시 입력해주세요.&lt;br&gt;출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="699.5" y="580" width="221" height="50" as="geometry" />
+        <mxCell id="_8A0RdiCuzYZlv76x9rI-4" value="&quot;해당 이름의 연락처는 없습니다.&lt;br&gt;다시 입력해주세요.&quot;&lt;br&gt;출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="740" y="640" width="221" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_8A0RdiCuzYZlv76x9rI-7" value="Search 함수 종료/ main 문 복귀" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="280" y="930" width="221" height="50" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q_j538LmLBWXGdaDwtNb-0" target="pQexZVyrvjUznnzYhCx8-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q_j538LmLBWXGdaDwtNb-0" value="Start&lt;br&gt;(Search)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="412.75" y="60" width="134.5" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-0" target="pQexZVyrvjUznnzYhCx8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pQexZVyrvjUznnzYhCx8-0" value="찾고자 하는 사람의 이름을 &lt;br&gt;입력했는가?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="160" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-1" value="&quot;검색하고자 하는 사람의 이름을 입력하세요&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="250" width="240" height="70" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-1" target="pQexZVyrvjUznnzYhCx8-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-3" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26quot%3B%EA%B2%80%EC%83%89%ED%95%98%EA%B3%A0%EC%9E%90%20%ED%95%98%EB%8A%94%20%EC%82%AC%EB%9E%8C%EC%9D%98%20%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EC%9E%85%EB%A0%A5%ED%95%98%EC%84%B8%EC%9A%94%26quot%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D14%3BstrokeWidth%3D2%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22690%22%20y%3D%22250%22%20width%3D%22240%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;해당 정보를 SearchInfo에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="420" width="240" height="70" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-1" value="출력: &quot;검색하고자 하는 사람의 이름을 입력하세요&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="340" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-4" value="입력한 사람의 이름을 &lt;br&gt;SearchName&amp;nbsp;에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="430" width="200" height="50" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-3" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="782.5" y="520" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-6" value="String SearchName;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="350" width="200" height="50" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-4" value="입력한 사람의 이름을 &lt;br&gt;SearchName&amp;nbsp;에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="770" y="290" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-6" value="String SearchName;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="710" y="140" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pQexZVyrvjUznnzYhCx8-7" value="if(SearchName.equals(Name))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="410" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-9" value="if(SearchName.equals(person_info.Name))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="510" width="280" height="150" as="geometry" />
+        <mxCell id="pQexZVyrvjUznnzYhCx8-9" value="SearchName.equals(person_info[i].Name)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-30" y="530" width="280" height="150" as="geometry" />
         </mxCell>
         <mxCell id="pQexZVyrvjUznnzYhCx8-11" value="클래스 배열 이용 (Person_Info)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="90" y="230" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-22" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12" target="_8A0RdiCuzYZlv76x9rI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-23" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12" target="_8A0RdiCuzYZlv76x9rI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-12" value="SearchName.equals(person_info[i].Name)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="560" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-13" target="pQexZVyrvjUznnzYhCx8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-13" value="String SearchName;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="430" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pQexZVyrvjUznnzYhCx8-15" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="369.5" y="920" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
