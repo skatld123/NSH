@@ -1,68 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T07:11:16.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="fsFdUsXzULWV7eRUmfds" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T07:41:33.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="gIqX8kwSQukzqKpGUEEr" version="14.4.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3076" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="_8A0RdiCuzYZlv76x9rI-3" value="person_info[i].Name&lt;br&gt;person_info[i].PH 출력&lt;br&gt;&quot;이름: 홍길동&lt;br&gt;번호:0106445151&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="369.5" y="770" width="221" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_8A0RdiCuzYZlv76x9rI-4" value="&quot;해당 이름의 연락처는 없습니다.&lt;br&gt;다시 입력해주세요.&quot;&lt;br&gt;출력" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="740" y="640" width="221" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Q_j538LmLBWXGdaDwtNb-0" target="pQexZVyrvjUznnzYhCx8-0">
+        <mxCell id="vujPfZUQDCQlnBkyloqH-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_8A0RdiCuzYZlv76x9rI-3" target="vujPfZUQDCQlnBkyloqH-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q_j538LmLBWXGdaDwtNb-0" value="Start&lt;br&gt;(Search)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="412.75" y="60" width="134.5" height="60" as="geometry" />
+        <mxCell id="_8A0RdiCuzYZlv76x9rI-3" value="person_info[i].Name,person_info[i].PH&amp;nbsp; 출력&lt;br&gt;ex) &lt;br&gt;&quot;이름: 홍길동&lt;br&gt;번호:0106445151&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="369.5" y="570" width="221" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-0" target="pQexZVyrvjUznnzYhCx8-1">
+        <mxCell id="vujPfZUQDCQlnBkyloqH-28" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12" target="_8A0RdiCuzYZlv76x9rI-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-0" value="찾고자 하는 사람의 이름을 &lt;br&gt;입력했는가?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="160" width="180" height="150" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-30" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="459.66666666666674" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-1" target="pQexZVyrvjUznnzYhCx8-13">
+        <mxCell id="pQexZVyrvjUznnzYhCx8-12" value="SearchName.equals(person_info[i].Name)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="345" y="390" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vujPfZUQDCQlnBkyloqH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-0" target="vujPfZUQDCQlnBkyloqH-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-1" value="출력: &quot;검색하고자 하는 사람의 이름을 입력하세요&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="340" width="280" height="60" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-0" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;Start&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;(Search)&lt;/span&gt;&#xa;&#xa;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="415" y="30" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-3" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="782.5" y="520" width="90" height="40" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-1" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="407.5" y="850" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-4" value="입력한 사람의 이름을 &lt;br&gt;SearchName&amp;nbsp;에 저장" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="770" y="290" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-6" value="String SearchName;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="710" y="140" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-7" value="if(SearchName.equals(Name))" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="410" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-9" value="SearchName.equals(person_info[i].Name)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-30" y="530" width="280" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-11" value="클래스 배열 이용 (Person_Info)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="230" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-22" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12" target="_8A0RdiCuzYZlv76x9rI-3">
+        <mxCell id="vujPfZUQDCQlnBkyloqH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-7" target="vujPfZUQDCQlnBkyloqH-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-23" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-12" target="_8A0RdiCuzYZlv76x9rI-4">
+        <mxCell id="vujPfZUQDCQlnBkyloqH-7" value="출력&lt;br&gt;&quot;검색 완료&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="362" y="720" width="221" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vujPfZUQDCQlnBkyloqH-24" value="참" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-9" target="pQexZVyrvjUznnzYhCx8-12">
+          <mxGeometry y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vujPfZUQDCQlnBkyloqH-29" value="거짓" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=13;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-9" target="vujPfZUQDCQlnBkyloqH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="285" />
+              <mxPoint x="690" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vujPfZUQDCQlnBkyloqH-9" value="i&amp;lt; Person_Info 의 배열의 길이" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="377" y="220" width="206" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vujPfZUQDCQlnBkyloqH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-14" target="vujPfZUQDCQlnBkyloqH-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-12" value="SearchName.equals(person_info[i].Name)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="560" width="280" height="150" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-14" value="int i = 0;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="435" y="140" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="pQexZVyrvjUznnzYhCx8-13" target="pQexZVyrvjUznnzYhCx8-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vujPfZUQDCQlnBkyloqH-31" target="vujPfZUQDCQlnBkyloqH-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="215" y="285" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-13" value="String SearchName;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="430" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pQexZVyrvjUznnzYhCx8-15" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="369.5" y="920" width="160" height="70" as="geometry" />
+        <mxCell id="vujPfZUQDCQlnBkyloqH-31" value="i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="440" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
