@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T00:18:35.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="1vSJa-We8m9Wn49_JA7b" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T00:27:17.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="4qr01QcETOzOqIGXhIRg" version="14.4.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="992" dy="688" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -399,8 +399,105 @@
             <mxPoint x="365" y="2649" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-139" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="344" y="2419" width="134" height="62" as="geometry" />
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-139" target="ldbKTRJ3cHXNDMAEZ_0d-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-139" value="main(String[] args)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="419.5" y="2427" width="134" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-140" target="ldbKTRJ3cHXNDMAEZ_0d-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-140" value="String search;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420.5" y="2516" width="132" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-141" target="ldbKTRJ3cHXNDMAEZ_0d-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-141" value="&quot;한영 단어 검색 프로그램입니다.&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="416.75" y="2598" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-142" target="ldbKTRJ3cHXNDMAEZ_0d-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-142" value="while(true)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="2693" width="132.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-143" target="ldbKTRJ3cHXNDMAEZ_0d-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-143" value="&quot;한글 단어?&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="437.25" y="2792" width="98" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-145" target="ldbKTRJ3cHXNDMAEZ_0d-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-145" value="search" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=0;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="436.25" y="2867" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-153" target="ldbKTRJ3cHXNDMAEZ_0d-157">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-153" value="String eng = Dictionary.kor2Eng(search);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="664" y="2620" width="184.5" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-161" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-154" target="ldbKTRJ3cHXNDMAEZ_0d-156">
+          <mxGeometry x="-0.1429" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-162" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-154" target="ldbKTRJ3cHXNDMAEZ_0d-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-154" value="search.equals(&quot;그만&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="672.5" y="2427" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-155" value="break;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="882" y="2439" width="92" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-156" target="ldbKTRJ3cHXNDMAEZ_0d-153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-156" value="search" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.19148936170212766;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="708.25" y="2532" width="96" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-157" target="ldbKTRJ3cHXNDMAEZ_0d-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-157" target="ldbKTRJ3cHXNDMAEZ_0d-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-157" value="(eng.equals(&quot;없습니다&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="667" y="2703" width="178.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-158">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="478" y="2673" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="757" y="2964" />
+              <mxPoint x="382" y="2964" />
+              <mxPoint x="382" y="2673" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-158" value="&quot;는 저의 사전에 없습니다.&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="673" y="2813" width="167" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=13;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ldbKTRJ3cHXNDMAEZ_0d-159">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="2674" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="926" y="2965" />
+              <mxPoint x="382" y="2965" />
+              <mxPoint x="382" y="2674" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-159" value="eng" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.16129032258064516;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="892" y="2722.5" width="68" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ldbKTRJ3cHXNDMAEZ_0d-168" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1016" y="2437" width="86" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
