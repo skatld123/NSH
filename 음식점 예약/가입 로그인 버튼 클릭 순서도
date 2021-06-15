@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T04:15:09.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="TNaO13FRLX3wX3e4XWFu" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T04:25:21.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="fEa5kZTZQWynnk9YLW4Y" version="14.7.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2009" dy="707" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,20 +19,41 @@
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-2" value="JButton b = (JButton) e.getSource();" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="204.5" y="168" width="225" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-3" target="-UGrBhtgd9LAFrN-iRnT-4">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-18" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-3" target="-UGrBhtgd9LAFrN-iRnT-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-3" target="-UGrBhtgd9LAFrN-iRnT-5">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-20" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-3" target="-UGrBhtgd9LAFrN-iRnT-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-3" value="b.getText().equals(&quot;가입&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="247" width="194" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-4" target="-UGrBhtgd9LAFrN-iRnT-6">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-19" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-4" target="-UGrBhtgd9LAFrN-iRnT-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-33" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-4">
+          <mxGeometry x="-0.8679" relative="1" as="geometry">
+            <mxPoint x="317" y="665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="112" y="418" />
+              <mxPoint x="112" y="665" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-4" value="b.getText().equals(&quot;로그인&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="376" width="194" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="669" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="863" y="289" />
+              <mxPoint x="863" y="741" />
+              <mxPoint x="467" y="741" />
+              <mxPoint x="467" y="669" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-5" value="new DisplayRegister(display);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="486" y="265.5" width="190" height="47" as="geometry" />
@@ -43,19 +64,21 @@
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-6" value="display.mode = display.rest.login(id.getText(), String.valueOf(pw.getPassword()));" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="174" y="498" width="286" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-7" target="-UGrBhtgd9LAFrN-iRnT-8">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-22" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-7" target="-UGrBhtgd9LAFrN-iRnT-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-7" target="-UGrBhtgd9LAFrN-iRnT-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-25" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-7" target="-UGrBhtgd9LAFrN-iRnT-9">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-7" value="display.mode == 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="242" y="594" width="150" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-8" target="-UGrBhtgd9LAFrN-iRnT-28">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-29" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-8" target="-UGrBhtgd9LAFrN-iRnT-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UGrBhtgd9LAFrN-iRnT-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-8" target="-UGrBhtgd9LAFrN-iRnT-13">
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-30" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-8" target="-UGrBhtgd9LAFrN-iRnT-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-8" value="b.getText().equals(&quot;관리자 모드&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -73,14 +96,83 @@
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-10" value="display.rest.checkSeat(display.t.entireMin);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="591" y="599.25" width="248" height="47" as="geometry" />
         </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="667" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="715" y="740" />
+              <mxPoint x="467" y="740" />
+              <mxPoint x="467" y="667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-11" value="display.change(&quot;DisplayFloor1&quot;);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="612" y="684" width="206" height="39" as="geometry" />
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-13" value="return;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="269.5" y="820" width="95" height="46" as="geometry" />
+          <mxGeometry x="269.5" y="829" width="95" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="814" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="61" y="814" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-UGrBhtgd9LAFrN-iRnT-28" value="display.change(&quot;Displaylogin_M&quot;);&lt;span&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-42" y="723" width="206" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-37" value="&lt;span style=&quot;font-size: 14px&quot;&gt;가입 또는 로그인 버튼을 눌렀을 경우&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="471" y="73" width="44" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-38" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-0" target="-UGrBhtgd9LAFrN-iRnT-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="381" as="sourcePoint" />
+            <mxPoint x="406" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-39" value="&lt;span style=&quot;font-size: 14px&quot;&gt;누른버튼이 가입이면 회원가입 창 생성&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="512" y="177" width="44" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.701;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-UGrBhtgd9LAFrN-iRnT-39" source="-UGrBhtgd9LAFrN-iRnT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="231.5" as="sourcePoint" />
+            <mxPoint x="385" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-5" target="-UGrBhtgd9LAFrN-iRnT-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365.99400000000014" y="271.028" as="sourcePoint" />
+            <mxPoint x="474" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-42" value="&lt;span style=&quot;font-size: 14px&quot;&gt;누른버튼이 로그인이면&lt;br&gt;로그인 메서드 실행 후 해당 정수 mode에 저장&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="468" y="378" width="44" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-UGrBhtgd9LAFrN-iRnT-4" target="-UGrBhtgd9LAFrN-iRnT-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429.5" y="420.25" as="sourcePoint" />
+            <mxPoint x="465.5" y="415.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-44" value="해당 모드가 1이면 (사용자이면)&lt;br&gt;id,pw 창 비우고 식당의 좌석 버튼 활성화 검사&lt;br&gt;이후 Floor1 로 패널 전환" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530.55" y="460" width="21.45" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.713;exitY=0.243;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-UGrBhtgd9LAFrN-iRnT-44" source="-UGrBhtgd9LAFrN-iRnT-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.99999999999983" y="572.0174999999999" as="sourcePoint" />
+            <mxPoint x="497.55" y="551.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-48" value="&lt;span style=&quot;font-size: 14px&quot;&gt;관리자 모드를 눌렀을 경우&amp;nbsp;&lt;br&gt;관리자 로그인 패널로 변경&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="439.93" y="783" width="44" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="-UGrBhtgd9LAFrN-iRnT-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.744;exitY=0.798;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-UGrBhtgd9LAFrN-iRnT-48" source="-UGrBhtgd9LAFrN-iRnT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="367.0049999999998" y="785.008" as="sourcePoint" />
+            <mxPoint x="437.43" y="820.75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
